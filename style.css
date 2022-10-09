@@ -426,6 +426,14 @@ justify-content: space-between;
 .footer__p{
     font-weight: 1;
 }
+.HS{
+    margin-top: 3EM;
+    color: #404040;
+    font-weight: 700;
+    border-bottom: 0.3125rem solid #00876c;
+    width: 6.25rem;
+    MARGIN-left: 4REM;
+}
 .footer__lower{
     padding: 1.25rem 0;
     margin-top: 0.5rem;
@@ -446,11 +454,20 @@ justify-content: space-between;
     list-style: none;
 }
 @media only screen and (max-width:900px){
+    body{
+        width: 900px;
+    }
 .nav__text--list1,.nav__text--list2{
     display: none;
 
 }
 .middle{
- width: 100%;   
+ width: 100%; 
+ width: 100%;
+ opacity: 0;
+ max-height: 700px;  
+}
+.nav{
+    font-size: 85%;
 }
 }
